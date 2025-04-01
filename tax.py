@@ -4,7 +4,7 @@
 """
 This program asks the user for a subtotal.
 It then calculates and displays the tax and total
-based on the Nova Scotia HST (15%).
+based on the new Nova Scotia HST (14%).
 """
 
 # Import the constants module to utilize the tax rate.
@@ -16,7 +16,7 @@ def main():
     # Get the subtotal from the user.
     subtotal = float(input("Enter the desired subtotal: $"))
 
-    # Calculate the tax, multiplying it with the Nova Scotia HST rate (15%).
+    # Calculate the tax, multiplying it with the Nova Scotia HST rate (14%).
     tax = subtotal * constants.HST_RATE
 
     # Calculate the total.

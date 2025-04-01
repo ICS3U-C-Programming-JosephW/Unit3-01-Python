@@ -3,4 +3,4 @@
 # Date: Mar. 31, 2025
 # This module contains constants.
 
-HST_RATE = 0.15
+HST_RATE = 0.14
